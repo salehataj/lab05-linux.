@@ -1,0 +1,18 @@
+total 68
+drwxr-x--- 10 salehataj salehataj 4096 Oct 16 04:05 .
+drwxr-xr-x  3 root      root      4096 Sep 11 05:23 ..
+-rw-------  1 salehataj salehataj 1086 Oct  4 11:01 .bash_history
+-rw-r--r--  1 salehataj salehataj  220 Feb 13  2026 .bash_logout
+-rw-r--r--  1 salehataj salehataj 3771 Feb 13  2026 .bashrc
+drwx------  2 salehataj salehataj 4096 Sep 11 05:35 .cache
+-rw-------  1 salehataj salehataj   70 Oct  4 13:31 .git-credentials
+-rw-rw-r--  1 salehataj salehataj  211 Oct 16 03:57 .gitconfig
+-rw-------  1 salehataj salehataj   20 Oct 16 03:58 .lesshst
+drwx------  3 salehataj salehataj 4096 Oct  4 11:56 .local
+-rw-r--r--  1 salehataj salehataj  807 Feb 13  2026 .profile
+drwx------  2 salehataj salehataj 4096 Oct 16 03:42 .ssh
+drwxrwxr-x  3 salehataj salehataj 4096 Oct  4 12:35 Assignment01
+drwxrwxr-x  3 salehataj salehataj 4096 Sep 24 01:41 CC_Lab2_Practice
+drwxrwxr-x  3 salehataj salehataj 4096 Oct  4 11:27 Gitea
+drwxrwxr-x  5 salehataj salehataj 4096 Oct 16 04:07 lab05-linux.
+drwxrwxr-x  2 salehataj salehataj 4096 Sep 18 05:05 mylab
