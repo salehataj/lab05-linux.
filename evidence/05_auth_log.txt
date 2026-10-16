@@ -1,0 +1,30 @@
+2026-10-16T04:35:58.867570+00:00 ubuntu sudo: salehataj : TTY=/dev/pts/0 ; PWD=/home/salehataj/lab05-linux. ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T04:35:59.052251+00:00 ubuntu groupadd[4517]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-16T04:35:59.056370+00:00 ubuntu groupadd[4517]: group added to /etc/gshadow: name=lab5user
+2026-10-16T04:35:59.057411+00:00 ubuntu groupadd[4517]: new group: name=lab5user, GID=1001
+2026-10-16T04:35:59.086519+00:00 ubuntu useradd[4522]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/1
+2026-10-16T04:36:34.135142+00:00 ubuntu chfn[4538]: changed user 'lab5user' information
+2026-10-16T04:36:34.791452+00:00 ubuntu gpasswd[4547]: members of group users set by root to salehataj,lab5user
+2026-10-16T04:36:42.287724+00:00 ubuntu sudo: salehataj : TTY=/dev/pts/0 ; PWD=/home/salehataj/lab05-linux. ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T04:37:53.696272+00:00 ubuntu sudo: salehataj : TTY=/dev/pts/0 ; PWD=/home/salehataj/lab05-linux. ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-16T04:37:53.918606+00:00 ubuntu userdel[4591]: delete user 'lab5user'
+2026-10-16T04:37:53.922321+00:00 ubuntu userdel[4591]: delete 'lab5user' from group 'users'
+2026-10-16T04:37:53.924110+00:00 ubuntu userdel[4591]: removed group 'lab5user' owned by 'lab5user'
+2026-10-16T04:37:53.924808+00:00 ubuntu userdel[4591]: removed shadow group 'lab5user' owned by 'lab5user'
+2026-10-16T04:37:53.926030+00:00 ubuntu userdel[4591]: delete 'lab5user' from shadow group 'users'
+2026-10-16T04:38:08.778941+00:00 ubuntu sudo: salehataj : TTY=/dev/pts/0 ; PWD=/home/salehataj/lab05-linux. ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T04:38:08.834546+00:00 ubuntu groupadd[4612]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-16T04:38:08.836715+00:00 ubuntu groupadd[4612]: group added to /etc/gshadow: name=lab5user
+2026-10-16T04:38:08.837870+00:00 ubuntu groupadd[4612]: new group: name=lab5user, GID=1001
+2026-10-16T04:38:08.854181+00:00 ubuntu useradd[4617]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/1
+2026-10-16T04:39:23.347582+00:00 ubuntu passwd[4635]: pam_unix(passwd:chauthtok): password changed for lab5user
+2026-10-16T04:39:36.654869+00:00 ubuntu chfn[4639]: changed user 'lab5user' information
+2026-10-16T04:39:39.565932+00:00 ubuntu gpasswd[4646]: members of group users set by root to salehataj,lab5user
+2026-10-16T04:41:20.579444+00:00 ubuntu unix_chkpwd[4688]: password check failed for user (lab5user)
+2026-10-16T04:41:20.586556+00:00 ubuntu su: pam_unix(su-l:auth): authentication failure; logname=salehataj uid=1000 euid=0 tty=/dev/pts/0 ruser=salehataj rhost=  user=lab5user
+2026-10-16T04:41:22.978804+00:00 ubuntu su[4686]: FAILED SU (to lab5user) salehataj on pts/0
+2026-10-16T04:41:37.233177+00:00 ubuntu su[4698]: (to lab5user) salehataj on pts/0
+2026-10-16T04:41:37.236068+00:00 ubuntu su[4698]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by salehataj(uid=1000)
+2026-10-16T04:46:00.597967+00:00 ubuntu su[4698]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-16T04:46:28.210721+00:00 ubuntu sudo: salehataj : TTY=/dev/pts/0 ; PWD=/home/salehataj/lab05-linux. ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-16T04:47:27.016841+00:00 ubuntu sudo: salehataj : TTY=/dev/pts/0 ; PWD=/home/salehataj/lab05-linux. ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
